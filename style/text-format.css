@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'planetary';
+    src: url('../p-font/planetary-mk-3-webfont.woff2') format('woff2'),
+         url('../p-font/planetary-mk-3-webfont.woff') format('woff');
+    src: local('../p-font/planetary-mk-3-webfont.woff2') format('woff2'),
+         local('../p-font/planetary-mk-3-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	font-family: Candara, Helvetica, sans-serif;
+	color: #DDD;
+}
+
+.content {
+	text-indent: 4em;
+	text-align: justify;
+	text-justify: inter-word;
+	font-size: 18px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 60px;
+	margin-top: 4vh;
+	margin-bottom: -5px;
+	text-shadow: 0px 2px 2px #000;
+	text-transform: uppercase;
+	line-height: 60px;
+}
+
+h2 {
+	text-align: center;
+	font-size: 20px;
+	margin-top: 0px;
+	letter-spacing: 0.5em;
+	text-transform: uppercase;
+}
+
+h3 {
+	margin-left: 40px;
+	margin-bottom: -5px;
+	color: #BDF;
+	text-align: left;
+	font-size: 28px;
+	text-decoration: underline;
+	font-weight: 700;
+	font-variant: small-caps;
+}
+
+h4 {
+	color: #9AF;
+	text-align: left;
+	font-size: 20px;
+	text-decoration: underline;
+	font-weight: 700;
+	font-variant: small-caps;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+a {
+	color: #8DF;
+	text-decoration: none;
+	text-shadow: 2px 2px 0px #444B;
+}
+
+/* mouse over link */
+a:hover {
+	color: #CFF;
+	text-shadow: 0px 0px 2px #8BF;
+}
+
+/* selected link */
+a:active {
+	color: #FFF;
+	text-shadow: 0px 0px 6px #0FF;
+}
+
+b {
+	color: #AAF;
+	font-weight: 700;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 1.5em;
+	border-left: 2px solid #FFF2;
+}
+
+blockquote {
+	font-size: 20px;
+	margin-bottom: 3px;
+	margin-left: 15px;
+	padding-left: 15px;
+	border-left: 5px solid #DDD;
+	font-weight: 700;
+	font-style: italic;
+	letter-spacing: 0.05em;
+	color: #DBF;
+}
+
+em {
+	font-size: 15px;
+	letter-spacing: 0.15em;
+	color: #AAA;
+}
+
+.unit { border-bottom: 2px dotted #DDD4; }
+
+.italics { font-style: italic; }
+
+.p {
+	font-family: "planetary";
+	font-size: 26px;
+	line-height: 0.81;
+}
